@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .test {
+        background-color: red;
+      }
+      .test1 {
+        background: blue;
+      }
+      .test3 {
+        background: purple;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+      }
+      .container {
+        /* display: grid; */
+        background-color: blueviolet;
+        /* position: absolute; */
+        position: relative;
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        width: 50%;
+        border: 2px solid black;
+        height: 300px;
+      }
+      .test {
+      }
+      .test1 {
+        position: absolute;
+        left: 0;
+        top: -20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="test1">2 positie absolute</div>
+      <div class="test">1</div>
+      <div class="test3">3</div>
+    </div>
+  </body>
+</html>

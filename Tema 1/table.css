@@ -1,0 +1,21 @@
+#test1 {
+  color: blue;
+  font-size: 2em;
+}
+
+.test1 {
+  color: blue;
+}
+
+.color1 {
+  color: green !important;
+  font-size: 3em;
+}
+
+.trheader {
+  background: crimson;
+}
+.trheader th:nth-child(1) {
+  color: yellow;
+}
+display:flex, display:grid , positions
