@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: rgb(216, 255, 216);
+  border: 6px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.sections {
+  border: 2px solid blue;
+  width: 90%;
+  height: 28%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.section1 {
+  height: 15%;
+  background-color: lightblue;
+  border: 3px solid blue;
+}
+
+.boxes {
+  background-color: lightpink;
+  width: 30%;
+  height: 80%;
+  border: 3px solid red;
+}
+.box4 {
+  background: blue;
+  width: 100%;
+  height: 100%;
+}
+.box5 {
+  background: purple;
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.minibox1 {
+  width: 100%;
+  height: 100%;
+  border: 3px solid red;
+  background: lightpink;
+}
+.minibox2 {
+  width: 100%;
+  height: 100%;
+  border: 3px solid red;
+  background: lightpink;
+}
+
+.boxinside {
+  width: 100%;
+  height: 100%;
+}
+.box5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px; */
+  flex-direction: column;
+  gap: 10px;
+  background: transparent;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.boxinside {
+  width: 100%;
+  height: 100%;
+  background: black;
+  border: 4px solid red;
+}
+
+.section3 {
+  height: 15%;
+  background-color: lightblue;
+}
+.box7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: 0;
+  background-color: transparent;
+}
+
+.section2 {
+  border: 0;
+}
