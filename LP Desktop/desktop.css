@@ -1,8 +1,33 @@
 .container {
-  width: 1400px;
   height: 100%;
   border: 2px solid red;
   margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  .container {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .d-flex {
+    flex-direction: column;
+  }
+  .d-flex div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+  .d-flex {
+    flex-direction: column;
+  }
+  .d-flex div {
+    width: 100%;
+  }
 }
 
 .d-flex {
@@ -52,7 +77,12 @@
   background-color: azure;
   flex-direction: column;
 }
-
+.section3 {
+  background: purple;
+}
+.test {
+  height: 100vh;
+}
 .boxInside {
   width: 25%;
   height: 250px;

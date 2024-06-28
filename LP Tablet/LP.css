@@ -1,0 +1,100 @@
+.container {
+  height: 100%;
+  border: 2px solid black;
+  padding: 20px;
+  width: 90%;
+  margin: auto;
+}
+@media (max-width: 991px) {
+  .container {
+    width: 600px;
+    background: red;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 400px;
+    background: black;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    width: 400px;
+    background: purple;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    background: blue;
+    width: 1200px;
+  }
+}
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1 {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}
+
+.section2 {
+  width: 100%;
+  height: 300px;
+  background-color: lightblue;
+}
+
+.section3 {
+  width: 100%;
+  height: 400px;
+}
+.b1 {
+  width: 20%;
+  height: 100%;
+  background-color: red;
+}
+
+.b2 {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.miniB0 {
+  width: 100%;
+  height: 50%;
+  background-color: darkblue;
+}
+.miniB1 {
+  width: 100%;
+  height: 25%;
+  background-color: darksalmon;
+}
+
+.miniB2 {
+  width: 100%;
+  height: 25%;
+  background-color: lightgreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.miniBox {
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  color: white;
+}
