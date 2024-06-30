@@ -79,6 +79,73 @@ header img {
   align-items: center;
   font-size: 3em;
 }
-.right-side {
-  background-color: blue;
+
+.right-side-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.s {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.line-1 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: lightblue;
+}
+.line-2 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.line-3 {
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: red;
+}
+.line-4 {
+  font-size: 1.2em;
+  color: lightblue;
+}
+
+.right-side .cta-button {
+  font-weight: bold;
+  background-color: crimson;
+  color: white;
+  padding: 0.5em 1.5em;
+  border-radius: 100px;
+  width: fit-content;
+}
+
+.section2 {
+  width: 100%;
+}
+
+.steps {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cercle {
+  width: 7em;
+  height: 7em;
+  background-color: red;
+  border-radius: 100%;
+}
+.step1 {
+  text-align: center;
+  padding: 0.5em;
+}
+.step2 {
+  text-align: center;
+}
+.step3 {
+  text-align: center;
 }
