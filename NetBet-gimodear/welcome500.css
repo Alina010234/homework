@@ -6,6 +6,19 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color_blue: #c5e6ff;
+  --color_red: #ff0000;
+  --color_white: #fff;
+  --color_softGray: #bfbfbf;
+  --textShadowFull: var(--textShadow) 0px 0px 10px,
+    var(--textShadow) 0px 0px 10px, var(--textShadow) 0px 0px 5px,
+    var(--textShadow) 0px 0px 16px;
+  --textShadow: #ff0000;
+  --header_color: #143233;
+  --footer_color: #010718;
+}
+
 body {
   font-family: sans-serif;
 }
@@ -20,7 +33,7 @@ header {
   align-items: center;
   width: 100%;
   height: 4.5em;
-  background-color: #333;
+  background-color: var(--header_color);
   position: absolute;
   top: 0;
 }
@@ -38,7 +51,7 @@ header {
 
 .header-cta .cta-button {
   /*<a> butoane din header*/
-  background-color: crimson;
+  background-color: var(--color_red);
   color: white;
   padding: 0.5em 1.5em;
   border-radius: 100px;
@@ -46,7 +59,7 @@ header {
 }
 .header-cta .cta-button:nth-child(1) {
   background-color: transparent !important;
-  border: 1px solid crimson;
+  border: 1px solid red;
 }
 header img {
   width: 10%;
@@ -86,6 +99,7 @@ header img {
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-size: 3.5vh;
 }
 .s {
   display: flex;
@@ -96,25 +110,28 @@ header img {
 
 .line-1 {
   font-size: 1.2em;
-  font-weight: bold;
-  color: lightblue;
+  color: (--darkreader-text--color_blue, #e8e6e3);
+  font-weight: 700;
 }
 .line-2 {
   font-size: 1.2em;
-  font-weight: bold;
+  font-weight: 700;
 }
 .line-3 {
   font-size: 3em;
-  font-weight: bold;
-  text-shadow: red;
+  font-weight: 900;
+  color: white;
+  text-shadow: var(--textShadowFull);
 }
+
 .line-4 {
   font-size: 1.2em;
   color: lightblue;
+  font-weight: 600;
 }
 
 .right-side .cta-button {
-  font-weight: bold;
+  font-weight: 800;
   background-color: crimson;
   color: white;
   padding: 0.5em 1.5em;
@@ -128,24 +145,40 @@ header img {
 
 .steps {
   width: 100%;
-  margin: auto;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: start;
+  padding: 4em 0;
 }
 .cercle {
   width: 7em;
   height: 7em;
   background-color: red;
   border-radius: 100%;
+  margin-bottom: 2em;
 }
 .step1 {
   text-align: center;
-  padding: 0.5em;
+  gap: 10px;
 }
 .step2 {
   text-align: center;
+  gap: 10px;
+}
+
+.step2 .text{
+  width: 50%;
 }
 .step3 {
   text-align: center;
+  gap: 10px;
+}
+
+.title-deposit{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 1.2em;
 }
