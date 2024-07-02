@@ -15,14 +15,21 @@
     var(--textShadow) 0px 0px 10px, var(--textShadow) 0px 0px 5px,
     var(--textShadow) 0px 0px 16px;
   --textShadow: #ff0000;
-  --header_color: #143233;
+  --header_color: #141c33;
   --footer_color: #010718;
 }
 
 body {
   font-family: sans-serif;
 }
-
+/* @media screen {   480px 568px   768px  991px + portrait  min-width: 991px
+  max-width: 1920px;
+} */
+@media (max-width: 480px) {
+  header {
+    background-color: yellow !important;
+  }
+}
 a {
   text-decoration: none;
 }
@@ -32,7 +39,7 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 4.5em;
+  height: 3em;
   background-color: var(--header_color);
   position: absolute;
   top: 0;
@@ -46,7 +53,7 @@ header {
   margin-right: 5%;
   gap: 15px;
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 .header-cta .cta-button {
@@ -89,8 +96,9 @@ header img {
   width: 50%;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  font-size: 3em;
+  gap: 1em;
 }
 
 .right-side-content {
@@ -100,6 +108,7 @@ header img {
   align-items: center;
   text-align: center;
   font-size: 3.5vh;
+  transform: skew(-5deg, -8deg);
 }
 .s {
   display: flex;
@@ -110,12 +119,13 @@ header img {
 
 .line-1 {
   font-size: 1.2em;
-  color: (--darkreader-text--color_blue, #e8e6e3);
+  color: lightblue;
   font-weight: 700;
 }
 .line-2 {
   font-size: 1.2em;
   font-weight: 700;
+  color: white;
 }
 .line-3 {
   font-size: 3em;
@@ -132,28 +142,34 @@ header img {
 
 .right-side .cta-button {
   font-weight: 800;
-  background-color: crimson;
+  font-size: 1.6em;
+  background-color: var(--color_red);
   color: white;
-  padding: 0.5em 1.5em;
+  padding: 0.5em 2.5em;
+  margin-top: 50px;
   border-radius: 100px;
   width: fit-content;
 }
 
 .section2 {
   width: 100%;
+  background-color: var(--footer_color);
 }
 
 .steps {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: space-around;
   align-items: start;
   padding: 4em 0;
+  margin: 0 auto;
+  background-color: var(--footer_color);
+  color: var(--color_white);
 }
 .cercle {
   width: 7em;
   height: 7em;
-  background-color: red;
+  background-color: var(--color_red);
   border-radius: 100%;
   margin-bottom: 2em;
 }
@@ -166,7 +182,7 @@ header img {
   gap: 10px;
 }
 
-.step2 .text{
+.step2 .text {
   width: 50%;
 }
 .step3 {
@@ -174,11 +190,17 @@ header img {
   gap: 10px;
 }
 
-.title-deposit{
+.title-deposit {
   font-size: 1.5em;
   font-weight: bold;
 }
 
 .text {
   font-size: 1.2em;
+}
+
+.section3 {
+  width: 100%;
+  height: 100vh;
+  background-color: brown;
 }
