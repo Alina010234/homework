@@ -195,12 +195,41 @@ header img {
   font-weight: bold;
 }
 
-.text {
+.s .text {
   font-size: 1.2em;
 }
 
 .section3 {
+  background-color: var(--footer_color);
+  color: #fff;
   width: 100%;
-  height: 100vh;
-  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*  aici incepe terms  */
+
+.terms h1 {
+  font-size: 2.5em;
+}
+.text-term {
+  padding: 1em 4em;
+  margin: 0 10px;
+}
+
+.text-term h2 {
+  font-size: 1.4em;
+}
+
+.text-term ul {
+  margin-bottom: 10px;
+}
+
+.text-term ul li {
+  font-size: 0.9em;
+  color: gray;
+  margin-left: 1em;
+  margin: 10px 0;
 }
