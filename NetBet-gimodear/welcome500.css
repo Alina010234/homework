@@ -54,6 +54,10 @@ header {
   gap: 15px;
   font-weight: bold;
   font-size: 1em;
+  transition: 1s;
+}
+.header-cta:hover {
+  transform: rotateX(360deg); /* Apply rotation on hover */
 }
 
 .header-cta .cta-button {
@@ -149,6 +153,10 @@ header img {
   margin-top: 50px;
   border-radius: 100px;
   width: fit-content;
+  transition: 2s;
+}
+.right-side .cta-button:hover {
+  transform: rotateX(360deg);
 }
 
 .section2 {
@@ -170,12 +178,23 @@ header img {
   width: 7em;
   height: 7em;
   background-color: var(--color_red);
-  border-radius: 100%;
+  border-radius: 1000000%;
   margin-bottom: 2em;
 }
+
 .step1 {
   text-align: center;
   gap: 10px;
+}
+.icon1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.icon1 img {
+  width: 3em;
+  filter: invert(1);
 }
 .step2 {
   text-align: center;
@@ -232,4 +251,50 @@ header img {
   color: gray;
   margin-left: 1em;
   margin: 10px 0;
+}
+
+.logo-section {
+  margin-bottom: 2em;
+}
+
+.logo-section .payment {
+  color: grey;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9em;
+  margin-bottom: 1em;
+}
+.logo-line {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 1em;
+}
+
+.logo-section2 {
+  margin-top: 2em;
+}
+
+.logo-section2 .responsible {
+  color: grey;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9em;
+  margin-bottom: 1em;
+}
+.logo-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2em;
+}
+
+.disclaimer {
+  color: grey;
+  font-size: 0.8em;
+  line-height: 1.5em;
 }
