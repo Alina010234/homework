@@ -178,7 +178,7 @@ header img {
   width: 7em;
   height: 7em;
   background-color: var(--color_red);
-  border-radius: 100%;
+  border-radius: 1000000%;
   margin-bottom: 2em;
 }
 
