@@ -5,21 +5,30 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(95, 57, 131);
+}
 
 .container-mare {
+  position: relative;
   width: 100%;
+  max-width: 1400px;
   height: 100%;
   background-color: rgb(95, 57, 131);
+  margin: 0 auto;
   /* font-family: sa; */
 }
 
 .header {
+  position: absolute;
+  width: 100%;
   height: 5em;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: end;
+  justify-content: space-between;
+  align-items: center;
   color: white;
+  margin-top: 20px;
 }
 
 nav ul {
@@ -52,7 +61,7 @@ span {
   align-items: center;
 }
 .s1container {
-  width: 80%;
+  width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -62,10 +71,10 @@ span {
   width: 40%;
   height: 100%;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   flex-direction: column;
-  border: solid black 2px;
+  /* border: solid black 2px; */
 }
 
 .title {
@@ -112,54 +121,71 @@ span {
 .right-side {
   width: 60%;
   height: 100%;
-  display: flex;
+  /*display: flex;
   justify-content: center;
-  align-items: center;
-  border: solid black 2px;
+  align-items: center;*/
+  /* border: solid black 2px; */
 }
 
 .cards-line {
-  width: 80%;
-  height: 40%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.cards {
   width: 100%;
   height: 100%;
-  margin-top: -200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.cards {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  /*margin-top: -200px;*/
+}
+.img {
+  width: auto;
+  height: 100%;
 }
 
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 .img1 {
-  position: absolute;
+  /*position: absolute;
   margin-left: 4em;
-  margin-bottom: 0;
+  margin-bottom: 0;*/
   box-shadow: 0px 0px 5px 5px rgb(63, 174, 218);
   z-index: 3;
-  transform: rotate(-10deg);
+  transform: rotate(-10deg) translateX(50%);
 }
 .img2 {
-  position: absolute;
-  box-shadow: 0px 0px 5px 5px red;
+  /*position: absolute;
   margin-left: 14em;
-  margin-top: -25px;
+  margin-top: -25px;*/
+  transform: rotatey(180deg) translateY(-12%);
+  box-shadow: 0px 0px 5px 5px red;
   z-index: 2;
 }
 
 .img3 {
-  position: absolute;
+  /*position: absolute;
+  margin-left: 22em;*/
   box-shadow: 0px 0px 5px 5px rgba(68, 0, 255, 0.786);
-  margin-left: 22em;
   z-index: 1;
-  transform: rotate(10deg);
+  transform: rotate(10deg) translateX(-50%);
 }
 
 .glass {
   position: absolute;
-  width: 13em;
-  height: 8em;
+  left: 20%;
+  bottom: -20%;
+  width: 33%;
+  height: 40%;
   background-color: antiquewhite;
   z-index: 4;
-  margin-bottom: -170px;
 }
