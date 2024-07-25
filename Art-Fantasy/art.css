@@ -6,7 +6,14 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(95, 57, 131);
+  background-image: linear-gradient(
+    to right bottom,
+    #49065a,
+    #39145b,
+    #281a59,
+    #161e56,
+    #012050
+  );
 }
 
 .container-mare {
@@ -14,7 +21,7 @@ body {
   width: 100%;
   max-width: 1400px;
   height: 100%;
-  background-color: rgb(95, 57, 131);
+  /* background-color: rgb(95, 57, 131); */
   margin: 0 auto;
   /* font-family: sa; */
 }
