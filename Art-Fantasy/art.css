@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "font-regular";
+  src: url("./fonts/refinery-75-regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "font-medium";
+  src: url("./fonts/refinery-75-medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 *,
 *,
 *::after {
@@ -14,6 +27,7 @@ body {
     #161e56,
     #012050
   );
+  font-family: "font-regular";
 }
 
 .container-mare {
@@ -85,6 +99,7 @@ span {
 }
 
 .title {
+  font-family: "font-medium";
   font-weight: 800;
   font-style: italic;
   font-size: 3.5em;
@@ -92,11 +107,12 @@ span {
 .small-text {
   font-size: 1em;
   margin-top: 3em;
+  color: white;
 }
 .buttonS1 {
   display: flex;
   justify-content: center;
-  gap: 4em;
+  gap: 1em;
   margin-top: 3em;
 }
 
@@ -188,6 +204,9 @@ span {
 }
 
 .glass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   left: 20%;
   bottom: -20%;
@@ -195,4 +214,24 @@ span {
   height: 40%;
   background-color: antiquewhite;
   z-index: 4;
+  gap: 4px;
+  padding: 10px;
+}
+.Abstract-side {
+  width: 100%;
+}
+
+.mushi-icon {
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.Abstract-side2 {
+  width: 100%;
+}
+
+.Abstract-side2 p {
+  color: rgb(253, 69, 13);
 }
