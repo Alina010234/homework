@@ -20,12 +20,19 @@
 }
 body {
   background-image: linear-gradient(
-    to right bottom,
-    #49065a,
-    #39145b,
-    #281a59,
-    #161e56,
-    #012050
+    to right top,
+    #0716aa,
+    #3120ae,
+    #472ab1,
+    #5934b5,
+    #683fb9,
+    #7441bd,
+    #8044c1,
+    #8b46c5,
+    #993fc9,
+    #a735cc,
+    #b726ce,
+    #c603cf
   );
   font-family: "font-regular";
 }
@@ -57,11 +64,27 @@ nav ul {
   display: flex;
   gap: 30px;
 }
+
+nav ul:hover {
+  text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 8px #00ff33, 0 0 10px #00ff33,
+    0 0 15px #00ff33, 0 0 20px #00ff33, 0 0 25px #00ff33, 0 0 30px #00ff33;
+}
+
+.buttonVallet {
+  background-color: rgba(241, 137, 249, 1);
+  background-image: linear-gradient(
+    90deg,
+    rgba(241, 137, 249, 1) 0%,
+    rgba(160, 58, 104, 1) 33%,
+    rgba(46, 154, 216, 1) 66%
+  );
+  cursor: pointer;
+}
 span {
-  color: rgb(204, 37, 137);
+  color: rgb(242, 90, 179);
 }
 .nft {
-  color: turquoise;
+  color: rgb(248, 247, 249);
 }
 .button {
   width: 9em;
@@ -69,9 +92,11 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(180, 98, 196);
+  background-color: rgb(121, 6, 236);
+  box-shadow: 0px 0px 20px #ebd1e4;
   border-radius: 10px;
   font-size: 1.1em;
+  font-weight: 300;
   cursor: pointer;
 }
 
@@ -112,13 +137,14 @@ span {
 .buttonS1 {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 1em;
   margin-top: 3em;
 }
 
 .explore-button {
-  background-color: #7a274e;
-  box-shadow: 0px 0px 20px #ff00b7 inset;
+  background-color: #d32c7a;
+  box-shadow: 0px 0px 30px #ff00b7;
   border: 2px solid #ff00b7;
   width: 7em;
   color: white;
@@ -208,24 +234,38 @@ span {
   justify-content: center;
   align-items: center;
   position: absolute;
-  left: 20%;
-  bottom: -20%;
+  left: 15%;
+  bottom: -25%;
   width: 33%;
   height: 40%;
-  background-color: antiquewhite;
   z-index: 4;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   gap: 4px;
   padding: 10px;
+  -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
 }
 .Abstract-side {
   width: 100%;
+  color: white;
+  font-size: 13px;
 }
 
-.mushi-icon {
+.human-icon {
   width: 40px;
   height: 40px;
-  background-color: blue;
+  margin-top: 10px;
   border-radius: 50%;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Abstract-side2 {
@@ -234,4 +274,19 @@ span {
 
 .Abstract-side2 p {
   color: rgb(253, 69, 13);
+}
+
+.logo-section {
+  width: 100%;
+  margin-top: -70px;
+}
+
+.logo-filter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  filter: brightness(0) saturate(100%) invert(87%) sepia(5%) saturate(136%)
+    hue-rotate(314deg) brightness(97%) contrast(80%);
 }
