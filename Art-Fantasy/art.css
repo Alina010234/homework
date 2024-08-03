@@ -389,14 +389,45 @@ span {
 }
 .s2-title {
   width: 100%;
-  margin-top: -3.5em;
+  margin-top: -5em;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
 }
 .h1 {
   color: white;
 }
+
+.dot-cercle {
+  margin-right: 80px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: transparent;
+  border: 10px dotted red;
+  position: relative;
+}
+
+.dot-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 50px;
+  color: white;
+}
+/*.dot-cercle::after {
+    content: "See all artwork-->"
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: auto;
+    left: 30%;
+    top: 50%;
+    transform: translate(10%, -50%);
+    font-size: 1.1em;
+  }*/
 
 .s2cards-line {
   position: relative;
@@ -417,7 +448,7 @@ span {
   width: calc(100% / 5);
   height: 400px;
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 16px;
+  border-radius: 30px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4.8px);
   -webkit-backdrop-filter: blur(4.8px);
