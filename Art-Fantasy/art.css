@@ -21,17 +21,17 @@
 body {
   background-image: linear-gradient(
     to right top,
-    #0716aa,
-    #3120ae,
-    #472ab1,
-    #5934b5,
-    #683fb9,
-    #7441bd,
-    #8044c1,
+    #152084,
+    #171048,
+    #2d138a,
+    #38246b,
+    #3d266c,
+    #44276d,
+    #5c106b,
     #8b46c5,
-    #993fc9,
+    #812eae,
     #a735cc,
-    #b726ce,
+    #7f1c8e,
     #c603cf
   );
   position: relative;
@@ -381,7 +381,6 @@ span {
 
 .s2container {
   width: 100%;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -416,7 +415,10 @@ span {
   align-items: center;
   flex-direction: row;
   margin-left: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
+  font-size: 1.2em;
+  font-weight: 100px;
 }
 
 .dot-text p {
@@ -473,33 +475,33 @@ span {
   background-image: url(./assets/image0.jpg);
 }
 .s2img.card2 {
-  background-image: url(./assets/s2img2.png);
+  background-image: url(./assets/image04.jpg);
 }
 .s2img.card3 {
-  background-image: url(./assets/image0.jpg);
+  background-image: url(./assets/image05.jpg);
 }
 .s2img.card4 {
-  background-image: url(./assets/image0.jpg);
+  background-image: url(./assets/image03.jpg);
 }
 
 .glass-bottom {
   width: 100%;
   color: white;
   font-size: 0.9em;
-  font-family: sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .head {
   width: 100%;
   display: flex;
   justify-content: space-between;
-}
-
-.head {
-  display: flex;
-  justify-content: space-between;
+  align-items: center;
   margin-top: 20px;
   color: white;
+}
+.owned {
+  font-size: 0.7em;
+  color: rgb(226, 204, 204);
 }
 
 .blue-button {
@@ -512,26 +514,62 @@ span {
   border-radius: 50px;
   color: white;
   font-size: 0.8em;
-  font-family: sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .middle {
-  margin-top: 20px;
+  margin-top: 10px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+}
+.current {
+  font-size: 0.7em;
+  color: rgb(194, 177, 177);
 }
 .minifooter {
-  margin-top: 20px;
+  margin-top: 10px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  gap: 20px;
 }
 .s2glass-button {
-  background-color: rgb(231, 48, 164);
+  width: 50%;
+  background-color: transparent;
+  border: 2px solid rgb(165, 11, 179);
   border-radius: 40px;
   box-shadow: none;
+}
+.s2glass-button:hover {
+  background-color: rgb(173, 21, 112);
+}
+.view {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 2px;
+  font-size: 0.8em;
+  color: rgb(226, 204, 204);
+}
+
+.icon img {
+  width: 80%;
+  height: 80%;
+  filter: brightness(0) invert(1);
+}
+
+.s2-footer {
+  margin-top: 80px;
+  color: white;
+}
+
+.title1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 30px;
 }
