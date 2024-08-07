@@ -593,6 +593,6 @@ span {
   margin-top: 30px;
 }
 
-h3 {
-  padding: 1.5em;
+.s2-text-line p {
+  font-size: 0.8em;
 }
