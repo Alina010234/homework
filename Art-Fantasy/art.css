@@ -572,7 +572,6 @@ span {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: start;
   flex-direction: row;
   object-fit: contain;
   padding: 10px;
