@@ -393,7 +393,7 @@ span {
   flex-direction: row;
   align-items: center;
 }
-.h1 {
+.h3 {
   color: white;
   margin-bottom: 3em;
 }
@@ -569,8 +569,12 @@ span {
   margin-top: 6em;
   color: white;
 }
+
+.s2-footer-title {
+  font-size: 2em;
+}
 img {
-  margin-bottom: 1.5em;
+  /*margin-bottom: 1.5em;*/
   height: 60px;
 }
 .s2-text-line {
@@ -589,4 +593,51 @@ img {
 .t {
   font-size: 1.5em;
   margin-bottom: 0.8em;
+}
+
+.s3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.s3-t {
+  width: 100%;
+  height: 6em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 8em;
+}
+
+.s3t1 {
+  color: white;
+  font-size: 2em;
+}
+.s3-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 0.5em;
+}
+.s3-white-line {
+  width: 20em;
+  height: 0.5em;
+  background-color: white;
+  border-radius: 50px;
+}
+.s3-pink-line {
+  width: 7em;
+  height: 0.5em;
+  background-color: rgb(246, 13, 203);
+  border-radius: 50px;
+}
+.s3-01 {
+  color: rgb(243, 4, 215);
+}
+.s3-04 {
+  color: rgb(54, 92, 244);
 }
