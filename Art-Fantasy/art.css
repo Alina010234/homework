@@ -688,6 +688,7 @@ img {
   align-items: center;
   flex-direction: column;
 }
+
 .s3-glass-icon-line {
   width: 100%;
   display: flex;
@@ -696,7 +697,30 @@ img {
   color: white;
   padding: 10px;
 }
+.s3-human-icon img {
+  width: 60px;
+  height: 60px;
+  border-radius: 20%;
+}
+
+.name .s3-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .created {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 5px;
+}
+.created p {
+  font-size: 0.8em;
+  margin-right: 5px;
+}
+.s3-title p {
   font-size: 0.7em;
   color: rgb(204, 197, 197);
 }
