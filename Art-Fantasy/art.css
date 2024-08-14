@@ -726,11 +726,13 @@ img {
 }
 
 .s3-small-icon {
-  background-color: red;
   width: 100%;
-  height: 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex: row;
+  object-fit: content;
+}
+.icon-s3 {
+  height: 2em;
 }
