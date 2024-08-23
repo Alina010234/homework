@@ -77,7 +77,6 @@ h3 {
   justify-content: space-between;
   align-items: center;
   color: white;
-  margin-top: 20px;
   z-index: 2;
 }
 .logoHeader img {
@@ -88,6 +87,8 @@ nav ul {
   list-style: none;
   display: flex;
   gap: 30px;
+  font-size: 1.1em;
+  font-family: chakra petch;
 }
 
 nav ul li:hover {
@@ -96,15 +97,31 @@ nav ul li:hover {
 }
 
 .buttonWallet {
+  width: 10em;
+  height: 3em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 7px;
+  padding: 10px;
   box-shadow: 0;
   background-image: linear-gradient(to right top, #1366f6, #a03eef, #ee5bf3);
+  font-size: 1.09em;
+  font-family: chakra petch;
+}
+.buttonWallet img {
+  width: 23px;
+  height: 23px;
 }
 
 span {
-  color: rgb(242, 90, 179);
+  color: rgb(239, 52, 161);
 }
 .nft {
-  color: rgb(248, 247, 249);
+  color: rgb(104, 244, 211);
+}
+.digital {
+  color: white;
 }
 .button {
   width: 9em;
@@ -127,6 +144,7 @@ span {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 3.5em;
 }
 .s1container {
   width: 100%;
@@ -153,7 +171,7 @@ span {
 }
 .title p {
   background: rgb(39, 39, 39);
-  background: -webkit-linear-gradient(rgb(253, 2, 140), rgb(243, 62, 210));
+  background: -webkit-linear-gradient(rgb(255, 1, 166), rgb(247, 99, 220));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
