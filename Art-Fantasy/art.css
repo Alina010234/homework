@@ -26,21 +26,20 @@
 body {
   background-image: linear-gradient(
     to right top,
-    #152084,
-    #171048,
-    #2d138a,
-    #38246b,
-    #3d266c,
-    #44276d,
-    #5c106b,
-    #8b46c5,
-    #812eae,
-    #a735cc,
-    #7f1c8e,
-    #c603cf
+    #000535,
+    #09013c,
+    #18016a,
+    #210171,
+    #2d0380,
+    #350873,
+    #2a095c,
+    #300482,
+    #2b108f,
+    #370496,
+    #5f20b2,
+    #42079b
   );
   position: relative;
-  font-family: sans-serif;
 }
 /*.shape {
   background: red;
@@ -98,9 +97,9 @@ nav ul li:hover {
 
 .buttonWallet {
   box-shadow: 0;
-  background-color: rgb(121, 6, 236);
-  cursor: pointer;
+  background-image: linear-gradient(to right top, #1366f6, #a03eef, #ee5bf3);
 }
+
 span {
   color: rgb(242, 90, 179);
 }
@@ -113,8 +112,8 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(121, 6, 236);
-  box-shadow: 0px 0px 20px #ebd1e4;
+  background-color: rgb(150, 19, 250);
+  /*box-shadow: 0px 0px 20px #ebd1e4;*/
   border-radius: 10px;
   font-size: 1.1em;
   font-weight: 300;
@@ -148,11 +147,18 @@ span {
 
 .title {
   /* font-family: "font-medium"; */
-  font-weight: 800;
-  font-style: italic;
-  font-size: 3.5em;
+  font-family: chakra petch;
+  font-weight: 700;
+  font-size: 3.9em;
+}
+.title p {
+  background: rgb(39, 39, 39);
+  background: -webkit-linear-gradient(rgb(253, 2, 140), rgb(243, 62, 210));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .small-text {
+  font-family: chakra petch;
   font-size: 1em;
   margin-top: 3em;
   color: white;
@@ -169,8 +175,14 @@ span {
   background-color: #d32c7a;
   box-shadow: 0px 0px 30px #ff00b7;
   border: 2px solid #ff00b7;
-  width: 7em;
+  width: 9em;
+  height: 3em;
   color: white;
+  gap: 0.5em;
+}
+.explore-button img {
+  width: 28px;
+  height: 28px;
 }
 
 .create-button {
@@ -178,8 +190,14 @@ span {
   border-radius: 8px;
   background-color: transparent;
   transform: 1s;
-  width: 7em;
+  width: 9em;
+  height: 3em;
   color: white;
+  gap: 0.5em;
+}
+.create-button img {
+  width: 28px;
+  height: 28px;
 }
 .statistics {
   display: flex;
@@ -188,6 +206,7 @@ span {
   gap: 3em;
   margin-top: 4em;
   color: white;
+  font-family: chakra petch;
 }
 
 .right-side {
@@ -343,6 +362,7 @@ span {
 }
 
 .button-glass {
+  background-image: linear-gradient(to right top, #1366f6, #a03eef, #ee5bf3);
   display: flex;
   justify-content: space-around;
   margin-top: 10px;
