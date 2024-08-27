@@ -125,12 +125,7 @@ nav ul li:hover {
 span {
   color: rgb(239, 52, 161);
 }
-.collect {
-  background: rgb(39, 39, 39);
-  background: -webkit-linear-gradient(rgb(255, 1, 166), rgb(247, 99, 220));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 .nft {
   color: rgb(104, 244, 211);
 }
@@ -182,6 +177,12 @@ span {
   font-size: 3.9em;
 }
 .title p {
+  background: rgb(39, 39, 39);
+  background: -webkit-linear-gradient(rgb(255, 1, 166), rgb(247, 99, 220));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.collect {
   background: rgb(39, 39, 39);
   background: -webkit-linear-gradient(rgb(255, 1, 166), rgb(247, 99, 220));
   -webkit-background-clip: text;
@@ -318,20 +319,20 @@ span {
   left: 15%;
   bottom: -25%;
   width: 40%;
-  height: 43%;
+  height: 45%;
   z-index: 4;
-  background: rgba(247, 227, 227, 0.27);
+  background: rgba(252, 243, 243, 0.27);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(218, 190, 190, 0.1);
-  backdrop-filter: blur(4.5px);
+  backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4.8px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.288);
   gap: 4px;
   padding: 10px;
   -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
   -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
   box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
-  clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 15%);
+  clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 23%);
 }
 .Abstract-side {
   width: 60%;
@@ -544,7 +545,7 @@ span {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 30px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.288);
   padding: 20px;
 }
 
