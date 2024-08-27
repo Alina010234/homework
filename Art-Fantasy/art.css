@@ -874,3 +874,111 @@ img {
   margin-right: 7px;
   margin-bottom: 3px;
 }
+
+.section4 {
+  width: 100%;
+  height: 100vh;
+}
+.s4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.s4offer {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+.s4line1 {
+  font-family: chakra petch;
+  font-weight: 700;
+  font-size: 3.9em;
+  color: rgb(239, 52, 161);
+}
+.s4line2 {
+  font-family: chakra petch;
+  font-weight: 700;
+  font-size: 3.9em;
+  color: rgb(104, 244, 211);
+}
+.s4lorem {
+  font-family: chakra petch;
+  font-size: 1em;
+  color: white;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.s4button {
+  width: 12em;
+  height: 3em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 7px;
+  padding: 10px;
+  box-shadow: 0;
+  background-image: linear-gradient(to right top, #1366f6, #a03eef, #ee5bf3);
+  font-size: 1.09em;
+  font-family: chakra petch;
+  color: white;
+  font-weight: 400;
+}
+
+.s4cards {
+  width: 50%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div1 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+.div2 {
+  grid-area: 4 / 1 / 10 / 4;
+}
+.div3 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+.div4 {
+  grid-area: 1 / 4 / 6 / 9;
+}
+.div5 {
+  grid-area: 6 / 4 / 7 / 5;
+}
+.div6 {
+  grid-area: 6 / 4 / 10 / 7;
+}
+.div7 {
+  grid-area: 6 / 7 / 7 / 8;
+}
+.div8 {
+  grid-area: 6 / 7 / 11 / 11;
+}
+.div9 {
+  grid-area: 3 / 9 / 4 / 10;
+}
+.div10 {
+  grid-area: 3 / 9 / 6 / 11;
+}
+.div11 {
+  grid-area: 3 / 11 / 4 / 12;
+}
+.div12 {
+  grid-area: 3 / 11 / 6 / 13;
+}
+.div13 {
+  grid-area: 6 / 11 / 7 / 12;
+}
+.div14 {
+  grid-area: 6 / 11 / 9 / 13;
+}
