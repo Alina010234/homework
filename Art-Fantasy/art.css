@@ -329,18 +329,18 @@ span {
   width: 40%;
   height: 45%;
   z-index: 4;
-  background: rgba(252, 243, 243, 0.27);
+  background: rgba(212, 205, 205, 0.27);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(218, 190, 190, 0.1);
-  backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4.8px);
-  border: 2px solid rgba(255, 255, 255, 0.288);
+  border: 1px solid rgba(212, 205, 205, 0.27);
   gap: 4px;
   padding: 10px;
   -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
   -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
   box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
   clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 23%);
+  font-family: chakra petch;
 }
 .Abstract-side {
   width: 60%;
@@ -398,7 +398,7 @@ span {
   width: 50%;
   height: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
   padding: 10px;
   flex-direction: column;
@@ -411,6 +411,7 @@ span {
   font-size: 1em;
   font-family: chakra petch;
   color: rgb(205, 208, 210);
+  margin-top: 10px;
 }
 .numbers {
   width: 100%;
@@ -418,7 +419,7 @@ span {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: chakra petch;
   font-size: 0.9em;
   color: white;
 }
@@ -426,7 +427,7 @@ span {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  font-family: sans-serif;
+  font-family: chakra petch;
   font-size: 0.7em;
   color: rgb(205, 208, 210);
 }
@@ -435,10 +436,10 @@ span {
   background-image: linear-gradient(to right top, #1366f6, #a03eef, #ee5bf3);
   display: flex;
   justify-content: space-around;
-  margin-top: 20px;
+  margin-top: 30px;
   font-family: chakra petch;
   width: 8.2em;
-  height: 2.3em;
+  height: 2.7em;
   font-size: 1.3em;
   color: white;
   object-fit: contain;
@@ -490,6 +491,7 @@ span {
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
+  font-family: chakra petch;
 }
 
 .dot-cercle {
@@ -509,7 +511,7 @@ span {
   align-items: center;
   flex-direction: row;
   margin-left: 50px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: chakra petch;
   color: white;
   font-size: 1.2em;
   font-weight: 100px;
@@ -550,10 +552,10 @@ span {
   object-fit: contain;
   width: calc(100% / 5);
   height: 400px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(248, 240, 240, 0.1);
   border-radius: 30px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  border: 2px solid rgba(255, 255, 255, 0.288);
+  border: 2px solid rgba(125, 111, 111, 0.288);
   padding: 20px;
 }
 
@@ -582,7 +584,7 @@ span {
   width: 100%;
   color: white;
   font-size: 0.9em;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: chakra petch;
 }
 
 .head {
@@ -608,7 +610,7 @@ span {
   border-radius: 50px;
   color: white;
   font-size: 0.8em;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: chakra petch;
 }
 .middle {
   margin-top: 10px;
@@ -662,6 +664,7 @@ span {
   width: 100%;
   margin-top: 6em;
   color: white;
+  font-family: chakra petch;
 }
 
 .s2-footer-title {
@@ -677,7 +680,7 @@ img {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: chakra petch;
   margin-top: 4em;
 }
 
@@ -706,6 +709,7 @@ img {
   align-items: center;
   flex-direction: row;
   margin-top: 2em;
+  font-family: chakra petch;
 }
 
 .s3t1 {
@@ -822,6 +826,9 @@ img {
   font-size: 1em;
   color: rgb(204, 197, 197);
 }
+.created p {
+  font-size: 1em;
+}
 
 .s3-small-icon {
   width: 100%;
@@ -831,7 +838,7 @@ img {
   align-items: center;
 }
 .s3-icon {
-  height: 1.3em;
+  height: 1.8em;
 }
 .s3-numbers {
   width: 100%;
@@ -851,11 +858,11 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 4em;
+  gap: 2em;
 }
 .s3button1 {
-  width: 10em;
-  height: 3em;
+  width: 13em;
+  height: 3.6em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -871,7 +878,7 @@ img {
 
 .s3button2 {
   width: 14em;
-  height: 2.5em;
+  height: 3.2em;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -888,7 +895,7 @@ img {
 
 .section4 {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 .s4 {
   width: 100%;
@@ -897,6 +904,7 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  margin-top: 16em;
 }
 .s4offer {
   width: 50%;
@@ -945,56 +953,39 @@ img {
   width: 50%;
   height: 100%;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(18, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
 
-.div1 {
-  grid-area: 4 / 1 / 5 / 2;
-}
-.div2 {
-  grid-area: 4 / 1 / 10 / 4;
-}
-.div3 {
-  grid-area: 1 / 4 / 2 / 5;
-}
-.div4 {
-  grid-area: 1 / 4 / 6 / 9;
-}
-.div5 {
-  grid-area: 6 / 4 / 7 / 5;
-}
-.div6 {
-  grid-area: 6 / 4 / 10 / 7;
-}
-.div7 {
-  grid-area: 6 / 7 / 7 / 8;
-}
-.div8 {
-  grid-area: 6 / 7 / 11 / 11;
-}
-.div9 {
-  grid-area: 3 / 9 / 4 / 10;
-}
-.div10 {
-  grid-area: 3 / 9 / 6 / 11;
-}
-.div11 {
-  grid-area: 3 / 11 / 4 / 12;
-}
-.div12 {
-  grid-area: 3 / 11 / 6 / 13;
-}
-.div13 {
-  grid-area: 6 / 11 / 7 / 12;
-}
-.div14 {
-  grid-area: 6 / 11 / 9 / 13;
+.div {
+  display: grid;
+  place-content: center;
 }
 
 .div1 {
-  grid-column: 1 span 2;
-  grid-row: 2;
+  grid-column: 1 / span 4;
+  grid-row: 2 / span 5;
+}
+.div1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.div2 {
+  grid-column: 5 / span 9;
+  grid-row: 1 / span 3;
+}
+.div2 img {
+  width: 100%;
+  height: 100%;
+}
+.div3 {
+  grid-column: 14 / span 4;
+  grid-row: 2 / span 2;
+}
+.div3 img {
+  width: 100%;
+  height: 100%;
 }
