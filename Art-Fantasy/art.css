@@ -188,6 +188,14 @@ span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.text_white {
+  background: rgb(39, 39, 39);
+  background: -webkit-linear-gradient(rgb(255, 255, 250), rgb(255, 255, 250));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .small-text {
   font-family: chakra petch;
   font-size: 1em;
@@ -729,6 +737,9 @@ img {
 .s3-04 {
   color: rgb(54, 92, 244);
 }
+.s2Test {
+  width: 20%;
+}
 
 .s3-glass {
   width: 100%;
@@ -808,7 +819,7 @@ img {
   margin-right: 5px;
 }
 .s3-title p {
-  font-size: 0.7em;
+  font-size: 1em;
   color: rgb(204, 197, 197);
 }
 
@@ -981,4 +992,9 @@ img {
 }
 .div14 {
   grid-area: 6 / 11 / 9 / 13;
+}
+
+.div1 {
+  grid-column: 1 span 2;
+  grid-row: 2;
 }
