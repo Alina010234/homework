@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Cards</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <style>
+      .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+      .card {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+        width: 300px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        width: 100%;
+        height: auto;
+      }
+      .card-content {
+        padding: 15px;
+      }
+      .card-title {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+      }
+      .card-text {
+        font-size: 1em;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card-container" id="cardContainer"></div>
+
+    <script>
+      // Sample object array
+      const cardData = [
+        {
+          title: "Card 1",
+          text: "This is the first card.",
+          img: "https://via.placeholder.com/300x200",
+        },
+        {
+          title: "Card 2",
+          text: "This is the second card with a longer text description.",
+          img: "https://via.placeholder.com/300x200",
+        },
+        {
+          title: "Card 3",
+          text: "This is the third card.",
+          img: "https://via.placeholder.com/300x200",
+        },
+        {
+          title: "Card 4",
+          text: "This is the third card.",
+          img: "https://via.placeholder.com/300x200",
+        },
+        {
+          title: "Card 5",
+          text: "This i the third card.",
+          img: "https://via.placeholder.com/300x200",
+        },
+        {
+          title: "Card 6",
+          text: "This is the third card.",
+          img: "https://via.placeholder.com/300x200",
+        },
+        {
+          title: "Card 7",
+          text: "This is the third card.",
+          img: "https://via.placeholder.com/300x200",
+        },
+      ];
+
+      // Function to create and append cards
+      function createCards(cards) {
+        const container = document.getElementById("cardContainer");
+
+        cards.forEach((card) => {
+          const cardElement = document.createElement("div");
+          cardElement.className = "card";
+
+          cardElement.innerHTML = `
+                <img src="${card.img}" alt="${card.title}">
+                <div class="card-content">
+                    <div class="card-title">${card.title}</div>
+                    <div class="card-text">${card.text}</div>
+                </div>
+            `;
+
+          container.appendChild(cardElement);
+        });
+      }
+
+      // Initialize cards on page load
+      document.addEventListener("DOMContentLoaded", () =>
+        createCards(cardData)
+      );
+    </script>
+  </body>
+</html>

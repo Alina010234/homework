@@ -67,7 +67,9 @@ h3 {
   margin: 0 auto;
   /* font-family: sa; */
 }
-
+.color_gray {
+  color: rgb(226, 204, 204);;
+}
 .header {
   position: absolute;
   width: 100%;
@@ -332,7 +334,7 @@ span {
   background: rgba(212, 205, 205, 0.27);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(218, 190, 190, 0.1);
-  -webkit-backdrop-filter: blur(4.8px);
+  /*-webkit-backdrop-filter: blur(4.8px);*/
   border: 1px solid rgba(212, 205, 205, 0.27);
   gap: 4px;
   padding: 10px;
@@ -873,8 +875,8 @@ img {
   border-radius: 10px;
   background: rgba(233, 219, 219, 0.1);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  /*backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);*/
   color: white;
   line-height: 1;
   font-size: 0.8em;
@@ -1121,7 +1123,7 @@ img {
   align-items: center;
   margin-top: 3em;
 }
-.s5title {
+.s5-title {
   font-family: chakra petch;
   font-size: 3.8em;
   font-weight: 800;
@@ -1156,7 +1158,7 @@ img {
 }
 .s5glass-up {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   flex-direction: column;
   object-fit: contain;
@@ -1170,7 +1172,19 @@ img {
   padding: 20px;
   margin-top: 5em;
 }
-
+.s5glass-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.s5human-icon img {
+  width: 60px;
+  height: 60px;
+  border-radius: 20%;
+}
+.s5-name {
+}
 .s5row2 {
   width: 100%;
   height: auto;
@@ -1181,7 +1195,7 @@ img {
 }
 .s5glass-down {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   flex-direction: column;
   object-fit: contain;
