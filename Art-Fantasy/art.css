@@ -342,6 +342,10 @@ span {
   clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 23%);
   font-family: chakra petch;
 }
+
+.s3-glass .glass {
+  width: 30% !important;
+}
 .Abstract-side {
   width: 60%;
   height: 100%;
@@ -963,12 +967,12 @@ img {
 }
 .leftcercle1up {
   position: absolute;
-  width: 2.5em;
-  height: 2.5em;
+  width: 2em;
+  height: 2em;
   border-radius: 50%;
   background-color: rgb(172, 82, 236);
   margin-left: -1em;
-  margin-top: -1.5em;
+  margin-top: -4em;
 }
 .leftcercle2up {
   position: absolute;
@@ -976,17 +980,17 @@ img {
   height: 1.5em;
   border-radius: 50%;
   background-color: rgb(255, 0, 183);
-  margin-top: 2em;
+  margin-top: -2em;
   margin-left: 3em;
 }
 .leftcercle1down {
   position: absolute;
-  width: 3em;
-  height: 3em;
+  width: 3.5em;
+  height: 3.5em;
   border: 2px solid orangered;
   border-radius: 50%;
   background-color: transparent;
-  margin-top: 40em;
+  margin-top: 35em;
   margin-left: 4.5em;
 }
 .leftcercle2down {
@@ -999,7 +1003,34 @@ img {
   margin-left: 12em;
   z-index: -1;
 }
-
+.rightcercle1up {
+  position: absolute;
+  width: 3em;
+  height: 3em;
+  border: 2px solid greenyellow;
+  border-radius: 50%;
+  background-color: transparent;
+  margin-top: -1em;
+  margin-left: 34em;
+}
+.rightcercle2up {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: orange;
+  margin-top: 2.5em;
+  margin-left: 37em;
+}
+.rightcercle1down {
+  position: absolute;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  background-color: rgb(252, 94, 236);
+  margin-top: 39em;
+  margin-left: 45em;
+}
 .div {
   display: grid;
   place-content: center;
@@ -1069,4 +1100,98 @@ img {
   width: 100%;
   height: 100%;
   border-radius: 20px;
+}
+.section5 {
+  width: 100%;
+  height: 100%;
+}
+.s5 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.s5header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3em;
+}
+.s5title {
+  font-family: chakra petch;
+  font-size: 3.8em;
+  font-weight: 800;
+  color: white;
+}
+.s5button {
+  width: 14em;
+  height: 4.5em;
+  background-color: rgb(234, 41, 176);
+  gap: 0.5em;
+  border-radius: 20px;
+}
+.s5button img {
+  width: 20px;
+  height: 20px;
+}
+
+.s5button-text {
+  font-size: 1.2em;
+  font-family: chakra petch;
+  color: white;
+  font-weight: 400;
+}
+
+.s5row1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.s5glass-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  object-fit: contain;
+  width: 32%;
+  height: 400px;
+  background: rgba(248, 240, 240, 0.1);
+  border-radius: 30px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(125, 111, 111, 0.288);
+  clip-path: none;
+  padding: 20px;
+  margin-top: 5em;
+}
+
+.s5row2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.s5glass-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  object-fit: contain;
+  width: 32%;
+  height: 400px;
+  background: rgba(248, 240, 240, 0.1);
+  border-radius: 30px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(125, 111, 111, 0.288);
+  clip-path: none;
+  padding: 20px;
+  margin-top: 5em;
 }
