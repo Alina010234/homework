@@ -68,7 +68,7 @@ h3 {
   /* font-family: sa; */
 }
 .color_gray {
-  color: rgb(226, 204, 204);;
+  color: rgb(226, 204, 204);
 }
 .header {
   position: absolute;
@@ -1177,13 +1177,23 @@ img {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  font-family: chakra petch;
+  color: white;
 }
 .s5human-icon img {
   width: 60px;
   height: 60px;
   border-radius: 20%;
 }
-.s5-name {
+.s5-name .created p:not(.color_gray) {
+  color: white;
+  font-size: 1.2em;
+}
+.s5-glass-icon {
+  width: 3em;
+  height: 1.5em;
+  border-radius: 20%;
+  background-color: grey;
 }
 .s5row2 {
   width: 100%;
