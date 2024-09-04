@@ -1174,11 +1174,13 @@ img {
 }
 .s5glass-header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
+  align-items: start;
   flex-direction: row;
   font-family: chakra petch;
   color: white;
+  /* background-color: red; */
+  width: 100%;
 }
 .s5human-icon img {
   width: 60px;
@@ -1190,10 +1192,27 @@ img {
   font-size: 1.2em;
 }
 .s5-glass-icon {
-  width: 3em;
-  height: 1.5em;
-  border-radius: 20%;
-  background-color: grey;
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: auto;
+  border-radius: 10px;
+  background-color: #424365;
+  padding: 3px;
+  gap: 10px;
+}
+.s5-glass-icon img {
+  width: 37%;
+  height: inherit;
+  object-fit: contain;
+}
+.s5glass-header .human-icon {
+  width: 100%;
+  /* background-color: black; */
+}
+.s5glass-header .human-icon img {
+  margin: unset;
 }
 .s5row2 {
   width: 100%;
