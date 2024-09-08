@@ -513,7 +513,7 @@ span {
 .dot-text {
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
   margin-left: 50px;
@@ -521,10 +521,11 @@ span {
   color: white;
   font-size: 1.2em;
   font-weight: 100px;
+  gap: 5em;
 }
 
 .dot-text p {
-  white-space: pre;
+  /*white-space: pre;*/
   width: 100%;
   transform: translateX(-30px);
 }
@@ -1230,6 +1231,7 @@ img {
   flex-direction: column;
   object-fit: contain;
   width: 32%;
+  height: fit-content;
   background: rgba(248, 240, 240, 0.1);
   border-radius: 30px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -1287,4 +1289,77 @@ img {
   background-color: crimson;
   grid-column: 3 / span 2;
   grid-row: 2 / auto;
+}
+
+.section6 {
+  width: 100%;
+  height: 100vh;
+}
+.s6 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.s6-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  font-family: chakra petch;
+}
+.s6-dot-text {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 50px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 100px;
+  gap: 2em;
+}
+
+.s6-dot-text p {
+  white-space: pre;
+  width: 100%;
+  transform: translateX(-30px);
+  margin-left: 1.5em;
+}
+
+.s6-body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.s6-glass {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 32%;
+  height: fit-content;
+  background: rgba(248, 240, 240, 0.1);
+  border-radius: 30px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(125, 111, 111, 0.288);
+  clip-path: none;
+  padding: 10px;
+}
+.s6-mini-glass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5em;
+  height: 2em;
+  background: rgba(0, 245, 49, 0.1);
+  border-radius: 30px;
+  box-shadow: 0 50px 90px rgba(0, 255, 51, 0.1);
 }
