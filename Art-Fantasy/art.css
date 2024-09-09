@@ -1310,6 +1310,7 @@ img {
   flex-direction: row;
   align-items: center;
   font-family: chakra petch;
+  margin-top: 6em;
 }
 .s6-dot-text {
   height: 100%;
@@ -1357,9 +1358,50 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 5em;
-  height: 2em;
-  background: rgba(0, 245, 49, 0.1);
+  width: fit-content;
+  height: auto;
+  background: rgba(2, 255, 52, 0.3);
   border-radius: 30px;
-  box-shadow: 0 50px 90px rgba(0, 255, 51, 0.1);
+  border: 2px solid rgba(2, 255, 52, 0.1);
+  z-index: 10;
+  color: greenyellow;
+  padding: 5px 10px;
+}
+.s6-mini-glass2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: auto;
+  background: rgba(253, 7, 44, 0.3);
+  border-radius: 30px;
+  border: 2px solid rgba(253, 7, 44, 0.3);
+  z-index: 10;
+  color: rgb(252, 6, 6);
+  padding: 5px 10px;
+}
+.s6-human-icon img {
+  width: 5em;
+  height: 5em;
+}
+.s6-name {
+  color: white;
+  font-size: 1.5em;
+  font-family: chakra petch;
+  margin-top: 10px;
+}
+.s6-stats {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  gap: 5px;
+}
+.s6-stats p {
+  color: white;
+  font-size: 1.2em;
+}
+.s6-stats img {
+  width: 1.5em;
+  height: 1.5em;
 }
