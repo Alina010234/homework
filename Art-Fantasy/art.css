@@ -1293,7 +1293,7 @@ img {
 
 .section6 {
   width: 100%;
-  height: 100vh;
+  height: fit-content;
 }
 .s6 {
   width: 100%;
@@ -1302,6 +1302,7 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 0.5em;
 }
 .s6-header {
   width: 100%;
@@ -1339,13 +1340,15 @@ img {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  row-gap: 30px;
+  margin: 3em 0;
 }
 .s6-glass {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
-  width: 32%;
+  width: 30%;
   height: fit-content;
   background: rgba(248, 240, 240, 0.1);
   border-radius: 30px;
@@ -1404,4 +1407,29 @@ img {
 .s6-stats img {
   width: 1.5em;
   height: 1.5em;
+}
+.section7 {
+  width: 100%;
+  height: 100%;
+}
+.s7-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4em;
+}
+.s7-body h2 {
+  color: white;
+  font-size: 3em;
+  font-family: chakra petch;
+}
+.s7-body button {
+  margin-top: 2em;
+  color: white;
+  font-family: chakra petch;
+  padding: 1em 2em;
+  background-image: linear-gradient(to right top, #1366f6, #a03eef, #ee5bf3);
+  width: fit-content !important;
+  height: 3em;
 }
