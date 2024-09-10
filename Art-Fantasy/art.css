@@ -1426,10 +1426,49 @@ img {
 }
 .s7-body button {
   margin-top: 2em;
+  margin-bottom: 15em;
   color: white;
   font-family: chakra petch;
   padding: 1em 2em;
   background-image: linear-gradient(to right top, #1366f6, #a03eef, #ee5bf3);
   width: fit-content !important;
   height: 3em;
+}
+
+.section8 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.s8-footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3em;
+  gap: 3em;
+}
+.c1-title {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 1em;
+}
+
+.c1-title img {
+  width: 90px;
+  height: auto;
+}
+.s8-column {
+  width: calc(100% / 5);
+  height: auto;
+}
+.s8-footer h3 {
+  font-size: 1.2em;
 }
