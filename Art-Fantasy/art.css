@@ -1472,3 +1472,15 @@ img {
 .s8-footer h3 {
   font-size: 1.2em;
 }
+.s8-column {
+  font-family: chakra petch;
+  color: rgb(188, 165, 165);
+  font-size: 1.1em;
+}
+ul {
+  list-style-type: none;
+}
+.footer-logo {
+  gap: 2em;
+  margin-top: 2em;
+}
